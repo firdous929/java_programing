@@ -33,7 +33,7 @@ public class student_mangt {
         for(Student s : students)
             System.out.println(s);
 
-        // Sort by Name
+        
         Collections.sort(students, new Comparator<Student>() {
             public int compare(Student s1, Student s2) {
                 return s1.name.compareTo(s2.name);
@@ -44,7 +44,7 @@ public class student_mangt {
         for(Student s : students)
             System.out.println(s);
 
-        // Sort by Marks (Descending)
+        
         Collections.sort(students, new Comparator<Student>() {
             public int compare(Student s1, Student s2) {
                 return s2.marks - s1.marks;
