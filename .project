@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>java_programming</name>
+=======
+	<name>java_programing</name>
+>>>>>>> a596e95 (First commit)
 	<comment></comment>
 	<projects>
 	</projects>
